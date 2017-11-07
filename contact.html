@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contact</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="liste-articles.html">Liste des articles</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+
+		<h1>Ma page de contact</h1>
+
+		<ul> <!--Fil d'ariane-->
+   			<li><a href="../index.html" title="Home">Home</a></li>
+        	<li>Contact</li>
+        </ul>
+
+	</header>
+
+	<section>
+		<form name="contact-form" action="contact.php" method="post">
+			
+			<div>
+				<label for="email-id">Entre ton email</label>
+				<input id="email-id" type="text" name="email" placeholder="john.doe@domain.tld">
+			</div>
+
+			<div>				
+				<label for="subject-id">Entre ton sujet</label>
+				<input id="subject-id" type="text" name="subject" placeholder="Sujet de ta question">
+			</div>
+
+			<div>
+				<label for="question-id">Entre ta question</label>
+				<textarea id="question-id" name="question" cols="30" rows="10" placeholder="Quelle est ta question ?"></textarea>
+			</div>
+			
+			<div>
+				<label for="response-id">Veux-tu une réponse rapide ?</label>
+				<input type="radio" id="response-id" name="response" value="1">Oui
+				<input type="radio" name="response" value="0" checked>Non
+			</div>
+			
+
+			<button type="submit">Envoyer</button>
+
+		</form>
+	</section>
+
+	<footer>
+    	<p>copyright 2017 - Le blog de Clem</p>
+    </footer>
+
+</body>
+</html>
