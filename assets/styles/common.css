@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    font-family: 'Catamaran', sans-serif;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+nav {
+    background: #333333;  /*#358478*/
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+.breadcrumb {
+    margin: 10px 0px 10px 10px;
+}
+
+.separator {
+    margin-bottom: 10px 0 10px 10px;
+}
+
+.btn {
+    text-decoration: none;
+    border: 1px solid #566573;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: #358478;
+    color: #FFF;
+}
+
+.btn:hover {
+    background-color: inherit;
+    color: #566573;
+}
+
+nav ul li, .breadcrumb {
+    display: inline;    /*change l'affichage des éléments de la liste*/
+    /*display: none;*/ /*fait disparaitre mais perd la place*/
+    /*visibility: hidden;*/ /*fait disparaitre mais garde la place*/
+}
+
+.active {
+    color: #FFF;
+    text-decoration: overline;
+}
+
+nav ul li a:hover {
+    color: #B5E655;
+    text-decoration: overline;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+ }
+
+ nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+}
+
+h1 {    /*h1 est un sélécteur, comme section, foooter, etc.*/
+    color : #BD1366;
+    font-size: 45px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+}
+
+section {
+    position: relative;
+    width: 600px;
+    /*margin: 0 auto 0 auto;*/      /*margin = marges extérieures*/
+    margin: 0 auto;
+    padding: 10px;
+    /*padding: 10px 10px 10px 10px;*/   /*padding = marges intérieures*/
+    border: 1px solid;
+}
+
+footer {    /*footer est le pied de page en lui-même*/
+    background: #333333;
+   
+}
+
+footer p {      /*footer p est le paragraphe dans le footer*/
+    font-size: 14px;
+    text-align: center;
+    color: #FFF;
+}

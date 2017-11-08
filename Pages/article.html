@@ -2,58 +2,78 @@
 <html lang="fr">
 
 <head>
-	<meta charset="UTF-8">
+	
 	<title>Premier article</title>
+
+	<meta charset="UTF-8">
+	<meta name="description" content="Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.">
+
+	<link href="https://fonts.googleapis.com/css?family=Abel|Catamaran|Muli|Pacifico|Quicksand|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="../assets/styles/common.css">
+	
 </head>
 
-<body>
+<body id="single-article">
 	<header>
 		<nav>
 			<ul>
-         		<li><a href="index.html" title="Home">Home</a></li>
+         		<li><a href="../index.html" title="Home">Home</a></li>
         		<li><a href="liste-articles.html" title="Liste des articles">Liste des articles</a></li>
+        		<li><a href="contact.html">Contact</a></li>
+				<li><a href="login.html" title="Login Admin">Login Admin</a></li>
    			</ul>
    		</nav>
-   		<h1>Titre du site</h1>
+
+   		<h1>Le blog de Clem</h1>
 
    		<ul> <!--Fil d'ariane-->
-   			<li><a href="index.html" title="Home">Home</a></li>
-        	<li><a href="liste-articles.html" title="Liste des articles">Liste des articles</a></li>
-        	<li> Premier article</li>
+   			<li class="breadcrumb"><a href="../index.html" title="Home">Home</a></li>
+   			<li class="breadcrumb">&sc;</li>
+        	<li class="breadcrumb"><a href="liste-articles.html" title="Liste des articles">Liste des articles</a></li>
+        	<li class="breadcrumb">&sc;</li>
+        	<li class="breadcrumb"> Premier article</li>
+
         </ul>
 
 	</header>
 
 <section>
-
 	<aside>
 		<ul>
-			<li><a href="#title-1">Un super contenu</li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-
-
+			<li><a href="#title-1">Un super contenu</a></li>
+			<li><a href="#title-2">Un super contenu 2</a></li>
+			<li><a href="#title-3">Un super contenu 3</a></li>
+			<li><a href="#title-4">Un super contenu 4</a></li>
+			<li><a href="#title-5">Un super contenu 5</a></li>
 		</ul>
 	</aside>
 
-	<h1>Premier article</h1>
+	<article>
 
-	<img src="http://2.bp.blogspot.com/-tTXxBuTTLQQ/TdJ4e6pyp9I/AAAAAAAAAHk/M9oTolbGO0A/s1600/p%2527tit+biscuit.jpg" alt="Petit biscuit" title="Petit biscuit">
-	<img src="shrek.png" alt="Shrek" title="Shrek"> <!--alt est pour le référencement, title est ce qui s'affiche quand on passe la souris sur l'image-->
+		<h1>Premier article</h1>
 
-	<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+		<img src="http://2.bp.blogspot.com/-tTXxBuTTLQQ/TdJ4e6pyp9I/AAAAAAAAAHk/M9oTolbGO0A/s1600/p%2527tit+biscuit.jpg" alt="Petit biscuit" title="Petit biscuit">
+		<img src="../assets/img/shrek.png" alt="Shrek" title="Shrek"> <!--alt est pour le référencement, title est ce qui s'affiche quand on passe la souris sur l'image-->
 
-	<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+		<ol>
+			<li>text 1</li>
+            <li>text 2</li>
+            <li>text 3</li>
+		</ol>
 
-	<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+		<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+
+		<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+
+		<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+
+	</article>
 
 </section>
 
-	<footer>
-   		<p>copyright 2017 - Le blog de Clem - <a href="#top">Go to top</p>
-	</footer>
+<footer>
+   	<p>copyright 2017 - Le blog de Clem - <a href="#top">Go to top</p>
+</footer>
 
 </body>
 
